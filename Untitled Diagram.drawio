@@ -1,9 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T08:03:30.989Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0" version="21.1.7" etag="hzEZIA6RZHEY9tK2W98T" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T08:10:55.120Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0" etag="W9iqIZfb3-AhUvpB7SwB" version="21.1.7" type="github">
   <diagram name="Page-1" id="O_GZbVM23Ai6w18Qgm05">
-    <mxGraphModel>
+    <mxGraphModel dx="1369" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vZFFe1RYfElN92TwC9cS-5" value="参数定义" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZFFe1RYfElN92TwC9cS-1" target="vZFFe1RYfElN92TwC9cS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZFFe1RYfElN92TwC9cS-1" value="天梯榜单定义" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vZFFe1RYfElN92TwC9cS-6" value="启动数据" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZFFe1RYfElN92TwC9cS-2" target="vZFFe1RYfElN92TwC9cS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZFFe1RYfElN92TwC9cS-2" value="天梯模型提交" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vZFFe1RYfElN92TwC9cS-7" value="结果收集" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZFFe1RYfElN92TwC9cS-3" target="vZFFe1RYfElN92TwC9cS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZFFe1RYfElN92TwC9cS-3" value="模型评估启动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="270" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vZFFe1RYfElN92TwC9cS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZFFe1RYfElN92TwC9cS-4" target="vZFFe1RYfElN92TwC9cS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZFFe1RYfElN92TwC9cS-9" value="更新" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vZFFe1RYfElN92TwC9cS-8">
+          <mxGeometry x="-0.115" relative="1" as="geometry">
+            <mxPoint x="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZFFe1RYfElN92TwC9cS-4" value="模型指标排序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="270" width="120" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
